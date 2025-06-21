@@ -86,7 +86,3 @@ src/
 ## 🛠 Styling
 
 Tailwind CSS is used for styling. You can customize the theme in `tailwind.config.js`.
-
-## 📜 License
-
-This project is private. Do not distribute without permission.
