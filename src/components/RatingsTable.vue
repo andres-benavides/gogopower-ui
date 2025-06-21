@@ -40,15 +40,9 @@
 
 <script setup lang="ts">
 import { useRatingsStore } from '@/stores/ratings'
+import { formatDate } from '@/utils/utils'
+
 
 const store = useRatingsStore()
 
-function formatDate(dateStr: string) {
-  const date = new Date(dateStr)
-  return date.toLocaleString('en-GB', {
-    timeZone: 'UTC',
-    dateStyle: 'short',
-    timeStyle: 'medium',
-  })
-}
 </script>

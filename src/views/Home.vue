@@ -84,7 +84,7 @@ watch(isCardView, (cardMode) => {
 async function getBestStock() {
   const ok = await store.fetchBestStock()
   if (ok) showModal.value = true
-  else alert('No recommendation found.')
+  else alert('No recommendation found today.')
 }
 
 async function getNewInfo() {
